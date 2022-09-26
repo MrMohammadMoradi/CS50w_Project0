@@ -1,0 +1,41 @@
+.SearchSection {
+    margin-top: 11vh;
+    display: flex;  
+    justify-content: center;
+}
+
+.FormSearch {
+    width: 590px;
+    text-align: center;
+}
+
+.FormSearch #logo {
+    margin: 20px 0px;
+}
+
+.FormSearch .Input {
+    display: flex;
+    border: 1px solid rgb(229, 210, 210);
+    border-radius: 25px;
+}
+
+.FormSearch #text_input {
+    width: 570px;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-top: 5px;
+    padding:0 ;
+}
+
+.FormSearch #search_icon {
+    height: 60%;
+    margin: 8px 15px;
+}
+
+.FormSearch #sound_search {
+    height: 75%;
+    margin: 2px 12px;
+}
+
