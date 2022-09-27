@@ -1,5 +1,5 @@
 .SearchSection {
-    margin-top: 11vh;
+    margin-top: 9vh;
     display: flex;  
     justify-content: center;
 }
@@ -31,7 +31,7 @@
 
 .FormSearch #search_icon {
     height: 60%;
-    margin: 8px 15px;
+    margin: 8px;
 }
 
 .FormSearch #sound_search {
@@ -39,3 +39,17 @@
     margin: 2px 12px;
 }
 
+
+.Navbar {
+    direction: rtl;
+    display: flex;
+}
+.Navbar a {
+    text-decoration: none;
+    color: #3c4043;
+    padding-right: 15px;
+    margin-top: 3px;
+}
+.Navbar a:hover {
+    text-decoration: underline;
+}
